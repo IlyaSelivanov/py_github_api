@@ -3,6 +3,7 @@
 This is a simple example package of a github api.
 
 # Usage example:
+```python
 from GithubApi import GithubApi
 from HttpSession import *
 
@@ -28,3 +29,4 @@ print(crated_pr)
 pr_approve = api.approve_repository_pull_request(
     "<OWNER>", "<REPOSITORY>", pull_no=0, commit_id="<COMMIT_ID>", body="body")
 print(pr_approve)
+```
