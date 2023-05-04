@@ -5,7 +5,6 @@ This is a simple example package of a github api.
 # Usage example:
 ```python
 from GithubApi import GithubApi
-from HttpSession import *
 
 api = GithubApi("<API_TOKEN>")
 

@@ -1,5 +1,5 @@
 from GithubApi import GithubApi
-from HttpSession import *
+
 
 api = GithubApi("<API_TOKEN>")
 
